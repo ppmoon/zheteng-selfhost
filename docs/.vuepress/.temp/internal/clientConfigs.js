@@ -8,6 +8,8 @@ import * as clientConfig6 from 'C:/Users/Administrator/Documents/ebook/zheteng-s
 import * as clientConfig7 from 'C:/Users/Administrator/Documents/ebook/zheteng-selfhost/docs/.vuepress/.temp/markdown-tab/config.js'
 import * as clientConfig8 from 'C:/Users/Administrator/Documents/ebook/zheteng-selfhost/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig9 from 'C:/Users/Administrator/Documents/ebook/zheteng-selfhost/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig10 from 'C:/Users/Administrator/Documents/ebook/zheteng-selfhost/docs/.vuepress/.temp/sass-palette/load-hope.js'
+import * as clientConfig11 from 'C:/Users/Administrator/Documents/ebook/zheteng-selfhost/docs/.vuepress/.temp/md-enhance/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -20,4 +22,6 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
+  clientConfig10,
+  clientConfig11,
 ].map((m) => m.default).filter(Boolean)

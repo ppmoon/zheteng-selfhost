@@ -4,7 +4,7 @@ title: 折腾——我的自建云之旅
 heroImage: https://images.zheteng.tech/cloud.svg
 actions:
   - text: Get Started
-    link: /getting-started.html
+    link: /get-started.html
     type: primary
 
 features:
