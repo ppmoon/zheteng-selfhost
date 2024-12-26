@@ -22,10 +22,45 @@ export default defineUserConfig({
         ]
       },
       {
-        title: '准备',
-        collapsable: false,
+        title: '开始动手！搭建自己的“云”',
+        collapsable: true,
         children: [
-          '/prepare/prepare.md'
+          '/one_do_it.md'
+        ]
+      },
+      {
+        title: '我的私人存储空间',
+        collapsable: true,
+        children: [
+          '/two_cloud_drive.md'
+        ]
+      },
+      {
+        title: '自建“娱乐中心”',
+        collapsable: true,
+        children: [
+          '/three_media_center.md'
+        ]
+      },
+      {
+        title: '让工作学习更高效',
+        collapsable: true,
+        children: [
+          '/four_efficiency_work.md'
+        ]
+      },
+      {
+        title: '智能家居的第一步',
+        collapsable: true,
+        children: [
+          '/five_ha.md'
+        ]
+      },
+      {
+        title: '不断提升，享受自建云的乐趣',
+        collapsable: true,
+        children: [
+          '/six_enjoy.md'
         ]
       },
     ]
